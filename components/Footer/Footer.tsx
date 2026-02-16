@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import css from './Footer.module.css'
 
 
@@ -11,7 +10,7 @@ export default function Footer() {
       <p>Developer: Vadym Kyrychenko</p>
       <p>
         Contact us:
-        <Link href="vadimkiricenko572@gmail.com"> vadimkiricenko572@gmail.com</Link>
+         <a href="mailto:vadimkiricenko572@gmail.com"> vadimkiricenko572@gmail.com</a>
       </p>
     </div>
   </div>
